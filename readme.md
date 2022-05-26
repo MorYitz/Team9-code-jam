@@ -14,4 +14,4 @@
 
 **Github Live Link**
 
-- [Link to the project's live link'](https://MorYitz.github.io/Team9-code-jam/)
+- [Link to the project's live link'](https://moryitz.github.io/Team9-code-jam/)
