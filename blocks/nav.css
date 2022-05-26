@@ -51,6 +51,7 @@
 
 @media screen and (max-width: 634px) {
   .nav__links {
+    padding-left: 20px;
     flex-direction: column;
     line-height: 50px;
   }

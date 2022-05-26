@@ -50,3 +50,14 @@
     align-self: center;
   }
 }
+@media screen and (max-width: 450px) {
+  .projects__section-header {
+    font-size: 14px;
+  }
+  .projects__section-text {
+    font-size: 12px;
+  }
+  .projects__section-btn {
+    font-size: 12px;
+  }
+}

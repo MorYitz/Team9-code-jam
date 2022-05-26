@@ -82,4 +82,7 @@
   .header__image {
     display: none;
   }
+  .header__title {
+    margin: 0;
+  }
 }

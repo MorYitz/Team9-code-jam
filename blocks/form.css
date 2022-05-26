@@ -16,6 +16,7 @@
   margin: 0 auto;
 }
 .form__button:hover {
+  cursor: pointer;
   opacity: 0.6;
 }
 

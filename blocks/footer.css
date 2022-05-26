@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 20px;
+  color: white;
+  background-color: black;
+}
+
+.footer__list {
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  list-style: none;
+}
+.footer__copyright {
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.social__link {
+  display: block;
+  max-width: 50px;
+}
+.social__link:hover + .social__item-name {
+  visibility: visible;
+}
+
+.social__item-name {
+  visibility: hidden;
+}

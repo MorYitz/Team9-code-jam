@@ -9,6 +9,7 @@
 .skill__item-title {
   text-align: center;
 }
+
 .skill__item {
   font-size: 15px;
   box-shadow: 0 0 5px 2px black;
@@ -18,6 +19,8 @@
   border-radius: 10px;
 }
 .skill__item:hover {
+  background-color: rgb(20, 13, 52);
+  color: white;
   transform: scale(1.05);
 }
 .skill__item-decription {

@@ -13,7 +13,7 @@
   padding-top: 65px;
 }
 .contacts__button {
-  max-width: 285px;
+  max-width: 311px;
   width: 100%;
   position: relative;
   max-height: 80px;
@@ -22,14 +22,30 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 1.2;
-  background-color: rgb(214, 210, 210);
+  background-color: rgb(185, 192, 196);
   border: 2px solid #404851;
   border-radius: 15px;
   transition: all 0.3s linear;
 }
 .contacts__button:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
   cursor: pointer;
   opacity: 0.6;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+  100% {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 2px black;
+  }
 }
 
 @media screen and (max-width: 1110px) {
